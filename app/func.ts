@@ -1,7 +1,9 @@
 import 'source-map-support/register'
 
 function makeAnError () {
-  throw Error('This is wrong')
+  console.log('Here here here')
+  return 'this is right'
+  // throw Error('This is wrong')
 }
 
 makeAnError()

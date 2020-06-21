@@ -2,8 +2,9 @@
   "name": "play-tsc",
   "version": "1.0.0",
   "description": "",
-  "main": "my.js",
+  "main": "./dist/func.js",
   "dependencies": {
+    "nodemon": "^2.0.4",
     "typescript": "^3.9.3"
   },
   "devDependencies": {
