@@ -1,3 +1,7 @@
-export function x (input: number) {
-  return 1
+import 'source-map-support/register'
+
+function makeAnError () {
+  throw Error('This is wrong')
 }
+
+makeAnError()
